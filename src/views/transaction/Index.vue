@@ -52,7 +52,7 @@
 
           <a
             class="btn btn-success"
-            href="https://wa.me/62114449289?text=Saya%20tertarik%20membeli%20paket%20indihome"
+            href="https://wa.me/628114449289?text=Saya%20tertarik%20membeli%20paket%20indihome"
             >Daftar IndiHome Sekarang
           </a>
         </div>
@@ -86,7 +86,7 @@
           </ul>
           <a
             class="btn btn-success mb-2"
-            href="https://wa.me/62114449289?text=Saya%20tertarik%20membeli%20paket%20indihome"
+            href="https://wa.me/628114449289?text=Saya%20tertarik%20membeli%20paket%20indihome"
             >Daftar IndiHome Sekarang
           </a>
         </div>
@@ -120,7 +120,7 @@
           </ul>
           <a
             class="btn btn-success"
-            href="https://wa.me/62114449289?text=Saya%20tertarik%20membeli%20paket%20indihome"
+            href="https://wa.me/628114449289?text=Saya%20tertarik%20membeli%20paket%20indihome"
             >Daftar IndiHome Sekarang
           </a>
         </div>
@@ -155,7 +155,7 @@
           </ul>
           <a
             class="btn btn-success"
-            href="https://wa.me/62114449289?text=Saya%20tertarik%20membeli%20paket%20indihome"
+            href="https://wa.me/628114449289?text=Saya%20tertarik%20membeli%20paket%20indihome"
             >Daftar IndiHome Sekarang
           </a>
         </div>
@@ -192,7 +192,7 @@
           </p>
           <a
             class="btn btn-success"
-            href="https://wa.me/62114449289?text=Saya%20tertarik%20membeli%20paket%20indihome"
+            href="https://wa.me/628114449289?text=Saya%20tertarik%20membeli%20paket%20indihome"
             >Daftar IndiHome Sekarang
           </a>
           <p class="mb-5">
@@ -205,7 +205,7 @@
         <div class="fixed-bottom d-grid gap-2 d-lg-none">
           <a
             class="btn btn-success"
-            href="https://wa.me/62114449289?text=Saya%20tertarik%20membeli%20paket%20indihome"
+            href="https://wa.me/628114449289?text=Saya%20tertarik%20membeli%20paket%20indihome"
             >Daftar IndiHome Sekarang
           </a>
         </div>
