@@ -1,6 +1,6 @@
 <template>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-2">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
       <img :src="image" width="100" />
       <button
@@ -26,7 +26,7 @@
       </div>
     </div>
   </nav>
-  <div class="d-flex justify-content-center">
+  <div class="d-flex justify-content-center mt-6">
     <div class="card" style="width: 1000px">
       <div class="card-body">
         <!-- content 1 -->
@@ -229,9 +229,7 @@ export default {
 </script>
 
 <style scope>
-@media screen and (max-width: 550px) {
-  .footer {
-    display: flex;
-  }
+div .mt-6 {
+  margin-top: 6rem;
 }
 </style>
