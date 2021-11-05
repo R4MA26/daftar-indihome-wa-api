@@ -17,7 +17,9 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Cara Daftar IndiHome</a>
+            <a class="nav-link" aria-current="page" href="#cara-daftar"
+              >Cara Daftar IndiHome</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Tentang Kami</a>
@@ -182,7 +184,7 @@
             href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
             >Daftar IndiHome Sekarang
           </a>
-          <p class="mb-5">
+          <p class="mb-5" id="cara-daftar">
             Cara Daftar Indihome Makassar cukup klik tombol Whatsapp diatas dan otomatis
             bisa melakukan chat dengan Costumer Service Kami. Anda bisa melengkapi data
             mengirimnya pula disana.
