@@ -42,8 +42,9 @@
               Anda ingin daftar Indihome atau mempunyai pertanyaan seputar layanan
               Indihome Anda bisa langsung live chat via Whatsapp ke Marketing kami. Kami
               siap membantu Anda sampai dengan terpasanganya layanan Indihome fiber di
-              rumah, apartemen, kantor maupun tempat usaha Anda. Kami melayani pemasangan
-              Indihome untuk seluruh wilayah Makassar, Gowa, Maros dan sekitarnya.
+              rumah, ruko, warkop, kantor maupun tempat usaha Anda. Kami melayani
+              pemasangan Indihome untuk seluruh wilayah Makassar, Gowa, Maros dan
+              sekitarnya.
             </p>
             <p style="text-align: justify">
               Indihome menawarkan koneksi internet cepat dan stabil dengan teknologi fiber
@@ -64,7 +65,7 @@
           <h2 class="text-center">PAKET INDIHOME MAKASSAR</h2>
           <h4 class="text-center text-primary">PAKET 2P INTERNET PHONE</h4>
           <div class="d-flex justify-content-center">
-            <img :src="brosur1" alt="Responsive image" class="img-fluid" width="500" />
+            <img :src="b2" alt="Responsive image" class="img-fluid" width="500" />
           </div>
           <p class="text-danger">Paket 2P Internet + Phone 300 menit</p>
           <div>
@@ -124,7 +125,7 @@
         <div class="d-grid gap-2">
           <h4 class="text-center text-primary">PAKET 3P INTERNET PHONE TV</h4>
           <div class="d-flex justify-content-center">
-            <img :src="brosur1" alt="Responsive image" class="img-fluid" width="500" />
+            <img :src="b2" alt="Responsive image" class="img-fluid" width="500" />
           </div>
           <p class="text-danger">Paket 3P Internet + Phone + Usee TV</p>
           <ul class="text-primary">
@@ -203,7 +204,7 @@
 <script>
 import image from "../img/logo.png";
 import brosur from "../img/Brosur.png";
-import brosur1 from "../img/brosur-1.jpg";
+import b2 from "../img/b2.jpg";
 import game from "../img/game.jpg";
 import internetTV from "../img/internettv.jpg";
 
@@ -212,7 +213,7 @@ export default {
     return {
       image: image,
       brosur: brosur,
-      brosur1: brosur1,
+      b2: b2,
       game: game,
       internetTV: internetTV,
     };
