@@ -107,7 +107,7 @@
               channels HD).
             </li>
             <li>Pilihan benefit Indihome Study / i-konser / Iflix.</li>
-            <li>Harga berlaku untuk pelanggan baru mulai Oktober 2020.</li>
+            <li>Harga berlaku untuk pelanggan baru mulai Oktober 2021.</li>
             <li>Harga di atas untuk pembayaran setiap bulan.</li>
             <li>
               Harga paket sudah termasuk Hybrid Box IndiHome dan ONT selama berlangganan.
@@ -148,7 +148,7 @@
         <div class="d-grid gap-2">
           <h4 class="text-center text-primary">PAKET INTERNET GAMER</h4>
           <div class="d-flex justify-content-center">
-            <img :src="brosur" alt="Responsive image" class="img-fluid" width="500" />
+            <img :src="game" alt="Responsive image" class="img-fluid" width="500" />
           </div>
           <p class="text-danger">
             Paket Internet Gamer (Internet + Phone + TV + Layanan Games)
@@ -167,7 +167,7 @@
             </li>
             <li>Gratis layanan games yang bekerja sama dengan Indihome.</li>
             <li>Harga di atas untuk pembayaran setiap bulan.</li>
-            <li>Harga berlaku untuk pelanggan baru mulai Oktober 2020.</li>
+            <li>Harga berlaku untuk pelanggan baru mulai Oktober 2021.</li>
             <li>Harga sudah termasuk Hybrid Box IndiHome dan ONT selama berlangganan.</li>
             <li>Harga belum termasuk PPN.</li>
           </ul>
@@ -204,6 +204,7 @@
 import image from "../img/logo.png";
 import brosur from "../img/Brosur.png";
 import brosur1 from "../img/brosur-1.jpg";
+import game from "../img/game.jpg";
 
 export default {
   data: function () {
@@ -211,6 +212,7 @@ export default {
       image: image,
       brosur: brosur,
       brosur1: brosur1,
+      game: game,
     };
   },
 };
