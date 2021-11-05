@@ -64,29 +64,21 @@
           <h2 class="text-center">PAKET INDIHOME MAKASSAR</h2>
           <h4 class="text-center text-primary">PAKET 2P INTERNET PHONE</h4>
           <div class="d-flex justify-content-center">
-            <img :src="brosur" alt="Responsive image" class="img-fluid" width="500" />
+            <img :src="brosur1" alt="Responsive image" class="img-fluid" width="500" />
           </div>
           <p class="text-danger">Paket 2P Internet + Phone 300 menit</p>
           <div>
             <ul class="text-primary">
-              <li>Speed 20 Mbps = Rp. 315.000,-/Bulan</li>
-              <li>Speed 30 Mbps = Rp. 420.000,-/Bulan</li>
-              <li>Speed 40 Mbps = Rp. 495.000,-/Bulan</li>
-              <li>Speed 50 Mbps = Rp. 560.000,-/Bulan</li>
-              <li>Speed 100 Mbps = Rp. 915.000,-/Bulan</li>
+              <li>Speed 30 Mbps = Rp. 335.000,-/Bulan</li>
+              <li>Speed 50 Mbps = Rp. 475.000,-/Bulan</li>
+              <li>Speed 100 Mbps = Rp. 795.000,-/Bulan</li>
             </ul>
           </div>
 
           <p class="text-left">keterangan :</p>
           <ul>
-            <li>Gratis 300 menit nelpon lokal / interlokal.</li>
-            <li>
-              Pilihan benefit Study (cloud storage dan Indihome study) atau Entertainment.
-            </li>
-            <li>Movin’ Phone (bebas pakai selama berlangganan IndiHome).</li>
-            <li>Harga berlaku untuk pelanggan baru mulai Oktober 2020.</li>
-            <li>Harga di atas untuk pembayaran setiap bulan.</li>
-            <li>Harga sudah termasuk biaya sewa ONT.</li>
+            <li>Bebas nelpon 100 menit Lokal/interlokal (Telpon Rumah)</li>
+            <li>Bebas akses disney + hotstar</li>
           </ul>
           <a
             class="btn btn-success mb-2"
@@ -221,12 +213,14 @@
 <script>
 import image from "../img/logo.png";
 import brosur from "../img/Brosur.png";
+import brosur1 from "../img/brosur-1.jpg";
 
 export default {
   data: function () {
     return {
       image: image,
       brosur: brosur,
+      brosur1: brosur1,
     };
   },
 };
