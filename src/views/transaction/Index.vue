@@ -124,30 +124,20 @@
         <div class="d-grid gap-2">
           <h4 class="text-center text-primary">PAKET 3P INTERNET PHONE TV</h4>
           <div class="d-flex justify-content-center">
-            <img :src="brosur" alt="Responsive image" class="img-fluid" width="500" />
+            <img :src="brosur1" alt="Responsive image" class="img-fluid" width="500" />
           </div>
           <p class="text-danger">Paket 3P Internet + Phone + Usee TV</p>
           <ul class="text-primary">
-            <li>20 Mbps = Rp. 375.000,-/Bulan</li>
-            <li>30 Mbps = Rp. 450.000,-/Bulan</li>
-            <li>40 Mbps = Rp. 525.000,-/Bulan</li>
-            <li>50 Mbps = Rp. 590.000,-/Bulan</li>
-            <li>100 Mbps = Rp. 945.000,-/Bulan</li>
-            <li>200 Mbps = Rp. 1.665.000,-/Bulan</li>
-            <li>300 Mbps = Rp. 2.655.000,-/Bulan</li>
+            <li>30 Mbps = Rp. 385.000,-/Bulan</li>
+            <li>50 Mbps = Rp. 615.000,-/Bulan</li>
+            <li>100 Mbps = Rp. 965.000,-/Bulan</li>
+            <li>200 Mbps = Rp. 1.335.000,-/Bulan</li>
+            <li>300 Mbps = Rp. 1.725.000,-/Bulan</li>
           </ul>
           <p class="text-left">keterangan :</p>
           <ul>
-            <li>Gratis 300 menit nelpon lokal/interlokal.</li>
-            <li>
-              Usee TV New Basic terdiri dari 109 channels UseeTV (91 channels SD dan 18
-              channels HD).
-            </li>
-            <li>Harga di atas untuk pembayaran setiap bulan.</li>
-            <li>Harga berlaku untuk pelanggan baru mulai Oktober 2020.</li>
-            <li>Harga dan benefit paket berlaku selama Anda berlangganan Indihome.</li>
-            <li>Harga sudah termasuk Hybrid Box IndiHome dan ONT selama berlangganan.</li>
-            <li>Harga belum termasuk PPN.</li>
+            <li>Bebas nelpon 100 menit Lokal/interlokal (Telpon Rumah)</li>
+            <li>Bebas akses disney + hotstar</li>
           </ul>
           <a
             class="btn btn-success"
