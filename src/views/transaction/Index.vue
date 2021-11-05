@@ -42,8 +42,8 @@
               Anda ingin daftar Indihome atau mempunyai pertanyaan seputar layanan
               Indihome Anda bisa langsung live chat via Whatsapp ke Marketing kami. Kami
               siap membantu Anda sampai dengan terpasanganya layanan Indihome fiber di
-              rumah, ruko, warkop, kantor maupun tempat usaha Anda. Kami melayani
-              pemasangan Indihome untuk seluruh wilayah Makassar, Gowa, Maros dan
+              rumah, ruko, kost-kostan, warkop, kantor maupun tempat usaha Anda. Kami
+              melayani pemasangan Indihome untuk seluruh wilayah Makassar, Gowa, Maros dan
               sekitarnya.
             </p>
             <p style="text-align: justify">
