@@ -95,10 +95,10 @@
           <p class="text-danger">Paket 2P Internet + Usee TV</p>
           <ul class="text-primary">
             <li>Speed 20 Mbps = Rp. 345.000,-/Bulan</li>
-            <li>Speed 30 Mbps = Rp. 390.000,-/Bulan</li>
-            <li>Speed 40 Mbps = Rp. 465.000,-/Bulan</li>
-            <li>Speed 50 Mbps = Rp. 530.000,-/Bulan</li>
-            <li>Speed 100 Mbps = Rp. 885.000,-/Bulan</li>
+            <li>Speed 30 Mbps = Rp. 420.000,-/Bulan</li>
+            <li>Speed 40 Mbps = Rp. 495.000,-/Bulan</li>
+            <li>Speed 50 Mbps = Rp. 560.000,-/Bulan</li>
+            <li>Speed 100 Mbps = Rp. 915.000,-/Bulan</li>
           </ul>
           <p class="text-left">keterangan :</p>
           <ul>
