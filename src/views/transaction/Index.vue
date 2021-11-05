@@ -88,9 +88,9 @@
         </div>
 
         <div class="d-grid gap-2">
-          <h4 class="text-center text-primary">PAKET 2P INTERNET PHONE</h4>
+          <h4 class="text-center text-primary">PAKET 2P INTERNET TV</h4>
           <div class="d-flex justify-content-center">
-            <img :src="brosur" alt="Responsive image" class="img-fluid" width="500" />
+            <img :src="internetTV" alt="Responsive image" class="img-fluid" width="500" />
           </div>
           <p class="text-danger">Paket 2P Internet + Usee TV</p>
           <ul class="text-primary">
@@ -205,6 +205,7 @@ import image from "../img/logo.png";
 import brosur from "../img/Brosur.png";
 import brosur1 from "../img/brosur-1.jpg";
 import game from "../img/game.jpg";
+import internetTV from "../img/internettv.jpg";
 
 export default {
   data: function () {
@@ -213,6 +214,7 @@ export default {
       brosur: brosur,
       brosur1: brosur1,
       game: game,
+      internetTV: internetTV,
     };
   },
 };
