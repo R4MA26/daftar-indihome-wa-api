@@ -189,6 +189,17 @@
             bisa melakukan chat dengan Costumer Service Kami. Anda bisa melengkapi data
             mengirimnya pula disana.
           </p>
+          <p>
+            <h4>Syarat dan ketentuan berlangganan paket indihome (Dengan akses disney + hotstar)</h4>
+            <ol>
+              <li>Paket indihome(Dengan akses disney + hotstar) ini tersedia untuk pelanggan baru indihome dan pelanggan lama inidihome yg ingin melakukan upgrade ke paket baru ini. Masa berlangganan minimal 12 bulan.</li>
+              <li>Untuk pilihan paket 3p (Internet + TV + Telpon). Bonus Add-On Minipack indimovie 2, CATCHPLAY, iflix, MOLA dan vidio hanya berlaku untuk pelanggan yang berlangganan dengan kecepatan minimal 50mbps.</li>
+              <li>Untuk menonton berbagai tayangan di disney + hotstar. Anda dapat mengunduh aplikan disney + hotstar di play store (Android) atau App Store (ios), lalu masuk menggunakan nomor seluler yang terdaftar di layanan indihome melalui aplikasi. Anda juga dapat mengunjungi situs web disney + hotstar di http://www.hotstar.com melelui browser Anda  Anda wajib menerima ketentuan penggunaan dan kebijakan privasi disney + hotstar sebagai syarat untuk mengakses disney + hotstar.</li>
+              <li>Pelanggan bisa mendapolkan bonus 53 channel Minlpack Upgrade Essential selarno 3 bulan dan bonus coshback soldo UnkAja apso.000 untuk blaya pernasangan baru berlaku unluk pelanggan yang berlangganan Paket 3P (Internet • TV • Telepon) melalui indihome.co.ld. aplikasl myIncliHome aplikosi. Tokopedia. Shopee. Bukalapok. Kios mylndiHome Klosk. alau Sobat IndiHome App. sebagaimana berlaku </li>
+              <li>Harga belum termasuk PPN 1O% </li>
+              <li>Syarat dan ketentuan rinci berlaku.. </li>
+            </ol>
+          </p>
         </div>
         <!-- footer fixed -->
         <div class="fixed-bottom d-grid gap-2 d-lg-none">
