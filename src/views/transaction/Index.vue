@@ -1,4 +1,15 @@
 <template>
+  <!-- Hero -->
+  <div class="hero-container">
+    <div class="hero"></div>
+    <div class="hero-stuff p-5">
+      <h1 class="text-white font-weight-bold p-2">Daftar Indihome Makassar</h1>
+      <h2 class="text-white font-weight-bold p-2">
+        Layanan Online Pasang Baru Indihome Makassar
+      </h2>
+      <a class="btn">Daftar IndiHome</a>
+    </div>
+  </div>
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
@@ -32,10 +43,6 @@
     <div class="card" style="width: 1000px">
       <div class="card-body">
         <!-- content 1 -->
-        <h1 class="text-center text-danger p-2">Daftar Indihome Makassar</h1>
-        <h2 class="text-center font-weight-bold p-2">
-          Layanan Online Pasang Baru Indihome Makassar
-        </h2>
 
         <div class="p-3 d-grid gap-2">
           <div>
@@ -189,20 +196,45 @@
             bisa melakukan chat dengan Costumer Service Kami. Anda bisa melengkapi data
             mengirimnya pula disana.
           </p>
-          <p>
-            <h4>Syarat dan ketentuan berlangganan paket indihome (Dengan akses disney + hotstar)</h4>
-            <ol>
-              <li>Paket indihome(Dengan akses disney + hotstar) ini tersedia untuk pelanggan baru indihome dan pelanggan lama inidihome yg ingin melakukan upgrade ke paket baru ini. Masa berlangganan minimal 12 bulan.</li>
-              <li>Untuk pilihan paket 3p (Internet + TV + Telpon). Bonus Add-On Minipack indimovie 2, CATCHPLAY, iflix, MOLA dan vidio hanya berlaku untuk pelanggan yang berlangganan dengan kecepatan minimal 50mbps.</li>
-              <li>Untuk menonton berbagai tayangan di disney + hotstar. Anda dapat mengunduh aplikan disney + hotstar di play store (Android) atau App Store (ios), lalu masuk menggunakan nomor seluler yang terdaftar di layanan indihome melalui aplikasi. Anda juga dapat mengunjungi situs web disney + hotstar di http://www.hotstar.com melelui browser Anda  Anda wajib menerima ketentuan penggunaan dan kebijakan privasi disney + hotstar sebagai syarat untuk mengakses disney + hotstar.</li>
-              <li>Pelanggan bisa mendapolkan bonus 53 channel Minlpack Upgrade Essential selarno 3 bulan dan bonus coshback soldo UnkAja apso.000 untuk blaya pernasangan baru berlaku unluk pelanggan yang berlangganan Paket 3P (Internet • TV • Telepon) melalui indihome.co.ld. aplikasl myIncliHome aplikosi. Tokopedia. Shopee. Bukalapok. Kios mylndiHome Klosk. alau Sobat IndiHome App. sebagaimana berlaku </li>
-              <li>Harga belum termasuk PPN 1O% </li>
-              <li>Syarat dan ketentuan rinci berlaku.. </li>
-            </ol>
-          </p>
+          <p></p>
+          <h4>
+            Syarat dan ketentuan berlangganan paket indihome (Dengan akses disney +
+            hotstar)
+          </h4>
+          <ol>
+            <li>
+              Paket indihome(Dengan akses disney + hotstar) ini tersedia untuk pelanggan
+              baru indihome dan pelanggan lama inidihome yg ingin melakukan upgrade ke
+              paket baru ini. Masa berlangganan minimal 12 bulan.
+            </li>
+            <li>
+              Untuk pilihan paket 3p (Internet + TV + Telpon). Bonus Add-On Minipack
+              indimovie 2, CATCHPLAY, iflix, MOLA dan vidio hanya berlaku untuk pelanggan
+              yang berlangganan dengan kecepatan minimal 50mbps.
+            </li>
+            <li>
+              Untuk menonton berbagai tayangan di disney + hotstar. Anda dapat mengunduh
+              aplikan disney + hotstar di play store (Android) atau App Store (ios), lalu
+              masuk menggunakan nomor seluler yang terdaftar di layanan indihome melalui
+              aplikasi. Anda juga dapat mengunjungi situs web disney + hotstar di
+              http://www.hotstar.com melelui browser Anda Anda wajib menerima ketentuan
+              penggunaan dan kebijakan privasi disney + hotstar sebagai syarat untuk
+              mengakses disney + hotstar.
+            </li>
+            <li>
+              Pelanggan bisa mendapolkan bonus 53 channel Minlpack Upgrade Essential
+              selarno 3 bulan dan bonus coshback soldo UnkAja apso.000 untuk blaya
+              pernasangan baru berlaku unluk pelanggan yang berlangganan Paket 3P
+              (Internet • TV • Telepon) melalui indihome.co.ld. aplikasl myIncliHome
+              aplikosi. Tokopedia. Shopee. Bukalapok. Kios mylndiHome Klosk. alau Sobat
+              IndiHome App. sebagaimana berlaku
+            </li>
+            <li>Harga belum termasuk PPN 1O%</li>
+            <li>Syarat dan ketentuan rinci berlaku..</li>
+          </ol>
         </div>
         <!-- footer fixed -->
-        <div class="fixed-bottom d-grid gap-2 d-lg-none">
+        <div class="fixed-bottom d-grid gap-2 d-lg-none d-md-none">
           <a
             class="btn btn-success"
             href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
@@ -237,5 +269,105 @@ export default {
 <style scope>
 div .mt-6 {
   margin-top: 5rem;
+}
+
+/* hero */
+
+.hero-container {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.hero {
+  background: url("../img/hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+  transition: transform 2s;
+  filter: brightness(50%);
+}
+
+.hero:hover {
+  transform: scale(1.15);
+}
+
+.hero-stuff {
+  margin-top: 200px !important;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+a.btn {
+  background-image: linear-gradient(to right, #ff512f 0%, #f09819 51%, #ff512f 100%);
+}
+
+a.btn {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  padding: 11px 30px;
+
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+a.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+  .hero-stuff {
+    margin-top: 100px !important;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 1.2rem;
+    padding: 5px !important;
+    /* background-color: olive; */
+  }
+
+  .hero-stuff h1 {
+    /* text-align: center; */
+    font-size: 2.9rem;
+  }
+
+  .hero-stuff h1,
+  h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .hero-stuff {
+    margin-top: 100px !important;
+  }
 }
 </style>
