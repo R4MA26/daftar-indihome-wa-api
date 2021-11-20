@@ -14,6 +14,9 @@
       >
     </div>
   </div>
+  <!-- About -->
+  <About />
+
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
@@ -32,12 +35,12 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#cara-daftar"
               >Cara Daftar IndiHome</a
             >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Tentang Kami</a>
           </li>
         </ul>
       </div>
@@ -47,33 +50,6 @@
     <div class="card" style="width: 1000px">
       <div class="card-body">
         <!-- content 1 -->
-
-        <div class="p-3 d-grid gap-2">
-          <div>
-            <p style="text-align: justify">
-              Silahkan pilih paket Internet Indihome sesuai dengan kebutuhan Anda. Apabila
-              Anda ingin daftar Indihome atau mempunyai pertanyaan seputar layanan
-              Indihome Anda bisa langsung live chat via Whatsapp ke Marketing kami. Kami
-              siap membantu Anda sampai dengan terpasanganya layanan Indihome fiber di
-              rumah, ruko, kost-kostan, sekolah, warkop, kantor maupun tempat usaha Anda.
-              Kami melayani pemasangan Indihome untuk seluruh wilayah Makassar, Gowa,
-              Maros dan sekitarnya.
-            </p>
-            <p style="text-align: justify">
-              Indihome menawarkan koneksi internet cepat dan stabil dengan teknologi fiber
-              optic. Saat ini, tersedia layanan Triple Play dan Dual Play yang bisa Anda
-              pilih. Triple Play terdiri dari Internet Fiber, Telepon Rumah, dan TV
-              Interaktif (Usee TV). Adapun Dual Play terdiri dari Internet Fiber dan
-              Telepon Rumah atau Internet Fiber dan TV Interaktif (Usee TV).
-            </p>
-          </div>
-
-          <a
-            class="btn-1 btn-success"
-            href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
-            >Daftar IndiHome Sekarang
-          </a>
-        </div>
         <div class="d-grid gap-2">
           <h2 class="text-center">PAKET INDIHOME MAKASSAR</h2>
           <h4 class="text-center text-primary">PAKET 2P INTERNET PHONE</h4>
@@ -195,12 +171,15 @@
             href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
             >Daftar IndiHome Sekarang
           </a>
-          <p class="mb-5" id="cara-daftar">
-            Cara Daftar Indihome Makassar cukup klik tombol Whatsapp diatas dan otomatis
-            bisa melakukan chat dengan Costumer Service Kami. Anda bisa melengkapi data
-            mengirimnya pula disana.
-          </p>
-          <p></p>
+          <div id="cara-daftar">
+            <h4 class="mt-6">Cara Daftar IndiHome:</h4>
+            <p class="mb-5">
+              Cara Daftar Indihome Makassar cukup klik tombol Daftar Indihome
+              Sekarang(Whatsapp) dan otomatis bisa melakukan chat dengan Costumer Service
+              Kami. Anda bisa melengkapi data dan mengirimnya pula disana.
+            </p>
+          </div>
+
           <h4>
             Syarat dan ketentuan berlangganan paket indihome (Dengan akses disney +
             hotstar)
@@ -261,10 +240,12 @@ import game from "../img/game.jpg";
 import internetTV from "../img/internettv.jpg";
 
 import Footer from "../components/footer.vue";
+import About from "../components/about.vue";
 
 export default {
   components: {
     Footer,
+    About,
   },
   data: function () {
     return {
