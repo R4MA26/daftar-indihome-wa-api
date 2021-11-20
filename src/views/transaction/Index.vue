@@ -7,7 +7,11 @@
       <h2 class="text-white font-weight-bold p-2">
         Layanan Online Pasang Baru Indihome Makassar
       </h2>
-      <a class="btn">Daftar IndiHome</a>
+      <a
+        class="btn-1"
+        href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
+        >Daftar IndiHome</a
+      >
     </div>
   </div>
   <!-- navbar -->
@@ -39,7 +43,7 @@
       </div>
     </div>
   </nav>
-  <div class="d-flex justify-content-center mt-6">
+  <div class="d-flex justify-content-center mt-2">
     <div class="card" style="width: 1000px">
       <div class="card-body">
         <!-- content 1 -->
@@ -65,7 +69,7 @@
           </div>
 
           <a
-            class="btn btn-success"
+            class="btn-1 btn-success"
             href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
             >Daftar IndiHome Sekarang
           </a>
@@ -91,7 +95,7 @@
             <li>Bebas akses disney + hotstar</li>
           </ul>
           <a
-            class="btn btn-success mb-2"
+            class="btn-1 btn-success mb-2"
             href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
             >Daftar IndiHome Sekarang
           </a>
@@ -125,7 +129,7 @@
             <li>Harga belum termasuk PPN.</li>
           </ul>
           <a
-            class="btn btn-success"
+            class="btn-1 btn-success"
             href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
             >Daftar IndiHome Sekarang
           </a>
@@ -150,7 +154,7 @@
             <li>Bebas akses disney + hotstar</li>
           </ul>
           <a
-            class="btn btn-success"
+            class="btn-1 btn-success"
             href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
             >Daftar IndiHome Sekarang
           </a>
@@ -187,7 +191,7 @@
             experience/drop rate dan masih banyak lagi yang diberikan oleh game publisher.
           </p>
           <a
-            class="btn btn-success"
+            class="btn-1 btn-success"
             href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
             >Daftar IndiHome Sekarang
           </a>
@@ -236,7 +240,7 @@
         <!-- footer fixed -->
         <div class="fixed-bottom d-grid gap-2 d-lg-none d-md-none">
           <a
-            class="btn btn-success"
+            class="btn-1 btn-success"
             href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
             >Daftar IndiHome Sekarang
           </a>
@@ -244,6 +248,9 @@
       </div>
     </div>
   </div>
+
+  <!-- Footer -->
+  <Footer class="mt-4" />
 </template>
 
 <script>
@@ -253,7 +260,12 @@ import b2 from "../img/b2.jpg";
 import game from "../img/game.jpg";
 import internetTV from "../img/internettv.jpg";
 
+import Footer from "../components/footer.vue";
+
 export default {
+  components: {
+    Footer,
+  },
   data: function () {
     return {
       image: image,
@@ -309,11 +321,13 @@ h1 {
   color: #fff;
 }
 
-a.btn {
+a.btn-1 {
+  text-decoration: none;
+  cursor: pointer;
   background-image: linear-gradient(to right, #ff512f 0%, #f09819 51%, #ff512f 100%);
 }
 
-a.btn {
+a.btn-1 {
   display: inline-block;
   font-family: sans-serif;
   font-size: 12px;
@@ -331,7 +345,7 @@ a.btn {
   border-radius: 10px;
 }
 
-a.btn:hover {
+a.btn-1:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
