@@ -237,7 +237,7 @@ import image from "../img/logo.png";
 import brosur from "../img/Brosur.png";
 import b2 from "../img/b2.jpg";
 import game from "../img/game.jpg";
-import internetTV from "../img/internettv.jpg";
+import internetTV from "../img/inettv.jpg";
 
 import Footer from "../components/footer.vue";
 import About from "../components/about.vue";
