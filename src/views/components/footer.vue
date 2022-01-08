@@ -31,7 +31,7 @@
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
       © 2021 Copyright by:
-      <a class="text-white" href="https://github.com/R4MA26">R4MA26</a>
+      <a class="text-white" href="https://my-web-portfolio-rama.netlify.app/">R4MA26</a>
     </div>
     <!-- Copyright -->
   </footer>
