@@ -7,11 +7,8 @@
       <h2 class="text-white font-weight-bold p-2">
         Layanan Online Pasang Baru Indihome Makassar
       </h2>
-      <a
-        class="btn-1"
-        href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
-        >Daftar IndiHome</a
-      >
+      <a class="btn-1"
+        href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome...">Daftar IndiHome</a>
     </div>
   </div>
   <!-- About -->
@@ -21,15 +18,8 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
       <img :src="image" width="100" />
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -38,9 +28,7 @@
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#cara-daftar"
-              >Cara Daftar IndiHome</a
-            >
+            <a class="nav-link" aria-current="page" href="#cara-daftar">Cara Daftar IndiHome</a>
           </li>
         </ul>
       </div>
@@ -59,8 +47,8 @@
           <p class="text-danger">Paket 2P Internet + Phone 300 menit</p>
           <div>
             <ul class="text-primary">
-              <li>Speed 30 Mbps = Rp. 335.000,-/Bulan</li>
-              <li>Speed 50 Mbps = Rp. 475.000,-/Bulan</li>
+              <li>Speed 30 Mbps = Rp. 315.000,-/Bulan</li>
+              <li>Speed 50 Mbps = Rp. 445.000,-/Bulan</li>
               <li>Speed 100 Mbps = Rp. 795.000,-/Bulan</li>
             </ul>
           </div>
@@ -70,10 +58,9 @@
             <li>Bebas nelpon 100 menit Lokal/interlokal (Telpon Rumah)</li>
             <li>Bebas akses disney + hotstar</li>
           </ul>
-          <a
-            class="btn-1 btn-success mb-2"
-            href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
-            >Daftar IndiHome Sekarang
+          <a class="btn-1 btn-success mb-2"
+            href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome...">Daftar IndiHome
+            Sekarang
           </a>
         </div>
 
@@ -102,10 +89,9 @@
             </li>
             <li>Harga belum termasuk PPN.</li>
           </ul>
-          <a
-            class="btn-1 btn-success"
-            href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
-            >Daftar IndiHome Sekarang
+          <a class="btn-1 btn-success"
+            href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome...">Daftar IndiHome
+            Sekarang
           </a>
         </div>
 
@@ -127,10 +113,9 @@
             <li>Bebas nelpon 100 menit Lokal/interlokal (Telpon Rumah)</li>
             <li>Bebas akses disney + hotstar</li>
           </ul>
-          <a
-            class="btn-1 btn-success"
-            href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
-            >Daftar IndiHome Sekarang
+          <a class="btn-1 btn-success"
+            href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome...">Daftar IndiHome
+            Sekarang
           </a>
         </div>
         <div class="d-grid gap-2">
@@ -164,10 +149,9 @@
             Dapatkan berbagai benefit seperti exclusive item, in game currency, double
             experience/drop rate dan masih banyak lagi yang diberikan oleh game publisher.
           </p>
-          <a
-            class="btn-1 btn-success"
-            href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
-            >Daftar IndiHome Sekarang
+          <a class="btn-1 btn-success"
+            href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome...">Daftar IndiHome
+            Sekarang
           </a>
           <div id="cara-daftar">
             <h4 class="mt-6">Cara Daftar IndiHome:</h4>
@@ -216,10 +200,9 @@
         </div>
         <!-- footer fixed -->
         <div class="fixed-bottom d-grid gap-2 d-lg-none d-md-none">
-          <a
-            class="btn-1 btn-success"
-            href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome..."
-            >Daftar IndiHome Sekarang
+          <a class="btn-1 btn-success"
+            href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome...">Daftar IndiHome
+            Sekarang
           </a>
         </div>
       </div>
@@ -233,7 +216,7 @@
 <script>
 import image from "../img/logo.png";
 import brosur from "../img/Brosur.png";
-import b2 from "../img/b2.jpg";
+import b2 from "../img/paket2p.jpg";
 import game from "../img/game.jpg";
 import internetTV from "../img/inettv.jpg";
 
