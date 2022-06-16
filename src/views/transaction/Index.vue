@@ -98,20 +98,19 @@
         <div class="d-grid gap-2">
           <h4 class="text-center text-primary">PAKET 3P INTERNET PHONE TV</h4>
           <div class="d-flex justify-content-center">
-            <img :src="b2" alt="Responsive image" class="img-fluid" width="500" />
+            <img :src='paket3p' alt="Responsive image" class="img-fluid" width="500" />
           </div>
           <p class="text-danger">Paket 3P Internet + Phone + Usee TV</p>
           <ul class="text-primary">
-            <li>30 Mbps = Rp. 385.000,-/Bulan</li>
             <li>50 Mbps = Rp. 615.000,-/Bulan</li>
             <li>100 Mbps = Rp. 965.000,-/Bulan</li>
-            <li>200 Mbps = Rp. 1.335.000,-/Bulan</li>
-            <li>300 Mbps = Rp. 1.725.000,-/Bulan</li>
           </ul>
           <p class="text-left">keterangan :</p>
           <ul>
             <li>Bebas nelpon 100 menit Lokal/interlokal (Telpon Rumah)</li>
             <li>Bebas akses disney + hotstar</li>
+            <li>Bebas akses Netflix</li>
+
           </ul>
           <a class="btn-1 btn-success"
             href="https://wa.me/628114449289?text=Saya%20tertarik%20berlangganan%20paket%20indihome...">Daftar IndiHome
@@ -127,9 +126,9 @@
             Paket Internet Gamer (Internet + Phone + TV + Layanan Games)
           </p>
           <ul class="text-primary">
-            <li>Speed 20 Mbps = Rp. 385.000,-/Bulan</li>
-            <li>Speed 50 Mbps = Rp. 600.000,-/Bulan</li>
-            <li>Speed 100 Mbps = Rp. 955.000,-/Bulan</li>
+            <li>Speed 30 Mbps = Rp. 375.000,-/Bulan</li>
+            <li>Speed 50 Mbps = Rp. 545.000,-/Bulan</li>
+            <li>Speed 100 Mbps = Rp. 895.000,-/Bulan</li>
           </ul>
           <p class="text-left">keterangan :</p>
           <ul>
@@ -195,7 +194,7 @@
               IndiHome App. sebagaimana berlaku
             </li>
             <li>Harga belum termasuk PPN 1O%</li>
-            <li>Syarat dan ketentuan rinci berlaku..</li>
+            <li>Syarat dan ketentuan rinci berlaku.</li>
           </ol>
         </div>
         <!-- footer fixed -->
@@ -217,7 +216,8 @@
 import image from "../img/logo.png";
 import brosur from "../img/Brosur.png";
 import b2 from "../img/paket2p.jpg";
-import game from "../img/game.jpg";
+import paket3p from "../img/paket3p.jpg";
+import game from "../img/gamer.jpg";
 import internetTV from "../img/inettv.jpg";
 
 import Footer from "../components/footer.vue";
@@ -235,6 +235,7 @@ export default {
       b2: b2,
       game: game,
       internetTV: internetTV,
+      paket3p: paket3p,
     };
   },
 };
